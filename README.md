@@ -1,23 +1,23 @@
-# ops-knowledge-base
+# Ops Knowledge Base
 
-Base pública de conhecimento para operações e infraestrutura: Linux, Docker, PostgreSQL e redes.
-Conteúdo estruturado em formato de runbooks, checklists e troubleshooting — com foco em diagnóstico rápido e previsibilidade operacional.
+Base pública de conhecimento voltada para operações e infraestrutura: Linux, Docker, PostgreSQL e redes.
 
-## Objetivo
-- Padronizar abordagens de diagnóstico e resolução
-- Reduzir tempo de triagem em incidentes
-- Servir como referência prática para rotinas de operação
+Este repositório organiza troubleshooting, checklists e runbooks com foco em:
 
-## Conteúdo
-- **Linux:** troubleshooting, systemd, logs, NTP/Chrony, health checks
-- **Docker:** patterns, compose, troubleshooting e segurança
-- **PostgreSQL:** backup/restore, performance e diagnósticos comuns
-- **Networking:** VPN (OpenVPN/WireGuard), SSH tunneling, firewall, DNS
-- **Runbooks:** incident template, postmortem, handoff
+- Diagnóstico estruturado
+- Redução de tempo de triagem
+- Padronização operacional
+- Previsibilidade em incidentes
+
+## Estrutura
+
+- linux/
+- docker/
+- postgresql/
+- networking/
+- runbooks/
 
 ## Aviso de Segurança
-Este repositório não contém informações sensíveis, dados de clientes, logs reais ou detalhes internos de ambientes corporativos.
-Exemplos são genéricos e sanitizados.
 
-## Licença
-MIT
+Este repositório não contém informações sensíveis, dados internos ou detalhes de ambientes corporativos reais.
+Todo conteúdo é genérico e sanitizado.
