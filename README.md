@@ -1,23 +1,22 @@
-# Ops Knowledge Base
+# Ops Knowledge Base (SRE-oriented)
 
-Base pública de conhecimento voltada para operações e infraestrutura: Linux, Docker, PostgreSQL e redes.
+Repositório público de conhecimento para operações e confiabilidade (SRE):
+runbooks, troubleshooting e padrões para Linux, Docker, PostgreSQL e redes.
 
-Este repositório organiza troubleshooting, checklists e runbooks com foco em:
+## Objetivos
+- Diagnóstico estruturado e repetível (reduzir MTTR)
+- Padronização de resposta a incidentes
+- Melhoria contínua (postmortems, ações corretivas e preventivas)
+- Segurança por padrão (conteúdo sanitizado)
 
-- Diagnóstico estruturado
-- Redução de tempo de triagem
-- Padronização operacional
-- Previsibilidade em incidentes
+## Seções
+- `sre/` — princípios, severidade, comando de incidente, comunicações e observabilidade
+- `runbooks/` — templates corporativos e runbooks por serviço
+- `linux/` — health checks, performance, storage e hardening
+- `docker/` — operações e segurança
+- `postgresql/` — health, performance e backup
+- `networking/` — DNS, SSH, VPN e firewall
 
-## Estrutura
-
-- linux/
-- docker/
-- postgresql/
-- networking/
-- runbooks/
-
-## Aviso de Segurança
-
-Este repositório não contém informações sensíveis, dados internos ou detalhes de ambientes corporativos reais.
-Todo conteúdo é genérico e sanitizado.
+## Nota de Segurança
+Sem IPs reais, hostnames, credenciais, logs produtivos ou detalhes internos de ambientes corporativos.
+Tudo aqui é genérico e sanitizado.
